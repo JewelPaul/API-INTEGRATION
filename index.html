@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Pulse News - Your World, Your News</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='%23c62828' d='M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm0-14c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6z'/></svg>" type="image/svg+xml">
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1><i class="fas fa-globe"></i> Global Pulse News</h1>
+            </div>
+            <button class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav class="category-nav" id="categoryNav">
+                <ul id="categoryList">
+                    <li><a href="#" class="category" data-category="world">World</a></li>
+                    <li><a href="#" class="category" data-category="india">India</a></li>
+                    <li><a href="#" class="category" data-category="business">Business</a></li>
+                    <li><a href="#" class="category" data-category="technology">Tech</a></li>
+                    <li><a href="#" class="category" data-category="sport">Sports</a></li>
+                    <li><a href="#" class="category" data-category="cricket">Cricket</a></li>
+                    <li><a href="#" class="category" data-category="entertainment">Entertainment</a></li>
+                    <li><a href="#" class="category" data-category="education">Education</a></li>
+                    <li><a href="#" class="category" data-category="science">Science</a></li>
+                    <li><a href="#" class="category" data-category="health">Health</a></li>
+                    <li><a href="#" class="category" data-category="lifestyle">Lifestyle</a></li>
+                </ul>
+            </nav>
+            <div class="city-selector">
+                <select id="citySelect">
+                    <option value="global">Global</option>
+                    <option value="india">India</option>
+                    <option value="usa">USA</option>
+                    <option value="uk">UK</option>
+                </select>
+            </div>
+        </div>
+    </header>
+
+    <!-- Breaking News Ticker -->
+    <section class="ticker">
+        <div class="ticker-label">Breaking News</div>
+        <div class="ticker-content" id="tickerContent">
+            <div class="ticker-content-wrapper"></div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <div class="main-container">
+        <!-- Left Sidebar -->
+        <aside class="sidebar left-sidebar">
+            <h3>Spotlight</h3>
+            <ul id="spotlightList"></ul>
+            <h3>More News</h3>
+            <ul id="moreNewsLeft"></ul>
+        </aside>
+
+        <!-- News Section -->
+        <main class="news-section">
+            <section id="featuredArticle" class="featured-card"></section>
+            <section class="category-section">
+                <h2>Top Stories</h2>
+                <div id="newsContainer" class="news-grid"></div>
+            </section>
+            <section class="category-section">
+                <h2>Latest Updates</h2>
+                <ul id="textNews" class="text-news"></ul>
+            </section>
+            <section class="category-section">
+                <h2>Photostories</h2>
+                <div id="photoStories" class="photo-grid"></div>
+            </section>
+            <div class="pagination">
+                <button id="prevBtn" disabled><i class="fas fa-chevron-left"></i> Prev</button>
+                <div id="pageNumbers" class="page-numbers"></div>
+                <button id="nextBtn"><i class="fas fa-chevron-right"></i> Next</button>
+            </div>
+        </main>
+
+        <!-- Right Sidebar -->
+        <aside class="sidebar right-sidebar">
+            <h3>World of Stars</h3>
+            <ul id="worldOfStarsList"></ul>
+            <h3>More News</h3>
+            <ul id="moreNewsRight"></ul>
+        </aside>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Global Pulse News</h4>
+                <p>© 2025 Global Pulse News. All rights reserved.</p>
+                <p>Data provided by <a href="https://open-platform.theguardian.com/" target="_blank">The Guardian API</a>.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="terms.html">Terms of Service</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
