@@ -26,9 +26,10 @@ The core functionality of Global Pulse News revolves around real-time news updat
 ### 🔄 Real-Time News Integration  
 The website seamlessly integrates with The Guardian API, allowing the platform to fetch live news articles. The data is retrieved using JavaScript's fetch() API and dynamically rendered on the site. The API key must be obtained from The Guardian's developer platform and integrated into the script as shown:  
 
-```javascript
+
 const API_KEY = 'YOUR API KEY';  
 const BASE_URL = 'https://content.guardianapis.com/search';
+
 🗂️ Content Display Sections
 Global Pulse News includes several content-rich sections to improve reader engagement:
 
