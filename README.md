@@ -30,7 +30,7 @@ The website seamlessly integrates with The Guardian API, allowing the platform t
 const API_KEY = 'YOUR API KEY';  
 const BASE_URL = 'https://content.guardianapis.com/search';
 
-#🗂️ Content Display Sections
+# 🗂️ Content Display Sections
 Global Pulse News includes several content-rich sections to improve reader engagement:
 
 🔔 Breaking News Ticker: An auto-refreshing ticker that updates every 5 minutes, displaying the most recent and urgent headlines.
@@ -47,7 +47,7 @@ Global Pulse News includes several content-rich sections to improve reader engag
 
 🎬 World of Stars: A curated feed focused on celebrity and entertainment news.
 
-#🧭 Navigation and Filtering
+# 🧭 Navigation and Filtering
 The website supports intuitive navigation and content discovery through:
 
 🏷️ Category Filters: Users can filter news by categories such as World, India, Business, Technology, Sports, etc.
@@ -56,14 +56,14 @@ The website supports intuitive navigation and content discovery through:
 
 📱 Responsive Hamburger Menu: Designed for mobile users, this collapsible menu enhances accessibility and navigation.
 
-📱 Responsive Web Design
+# 📱 Responsive Web Design
 The layout adapts seamlessly across devices:
 
 🖥️ Desktop View: Employs a three-column layout to display more information at a glance.
 
 📱 Mobile View: Automatically adjusts to a single-column format for optimized readability and user experience on smaller screens.
 
-#📄 Pagination System
+# 📄 Pagination System
 To manage large sets of news data efficiently, the site includes a built-in pagination system, allowing users to browse older stories without overloading the page.
 
 🛠️ Technical Stack
@@ -77,7 +77,7 @@ To manage large sets of news data efficiently, the site includes a built-in pagi
 
 🗃️ GitHub for version control and project collaboration
 
-#📁 Current Website Pages
+# 📁 Current Website Pages
 🏠 Home (index.html): Main page with all news sections and interactive features
 
 ℹ️ About: Provides information about the project and its objectives
@@ -88,7 +88,7 @@ To manage large sets of news data efficiently, the site includes a built-in pagi
 
 📧 Contact: Includes a basic form or email for user feedback and inquiries
 
-#🌐 Browser Compatibility
+# 🌐 Browser Compatibility
 The website has been tested and confirmed to function smoothly across all major modern browsers including:
 
 ✅ Google Chrome
@@ -107,7 +107,7 @@ The website has been tested and confirmed to function smoothly across all major 
 ![BOTTOM](https://github.com/user-attachments/assets/1f3fbd5e-d450-4390-add3-c37e5b3817a2)
 
 
-#Conclusion:
+# Conclusion:
 The Global Pulse News project is a fully functional news aggregation website, serving as a live demonstration of real-time API integration, front-end development skills, and responsive design practices. Through this project, the intern has successfully implemented key web development concepts, showing proficiency in dynamic content rendering, layout design, and user experience optimization.
 
 
