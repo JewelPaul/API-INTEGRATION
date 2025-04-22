@@ -99,7 +99,7 @@ The website has been tested and confirmed to function smoothly across all major 
 
 ✅ Safari
 
-# SCREENSHOTS
+# OUTPUT
 ![TOP](https://github.com/user-attachments/assets/2a85d7ab-adbb-46ee-b74c-a18ce495d532)
 
 ![MID](https://github.com/user-attachments/assets/b953ddbf-4c4e-41bb-bbbf-2dc19aa5846b)
