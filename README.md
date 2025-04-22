@@ -111,4 +111,6 @@ The website has been tested and confirmed to function smoothly across all major 
 The Global Pulse News project is a fully functional news aggregation website, serving as a live demonstration of real-time API integration, front-end development skills, and responsive design practices. Through this project, the intern has successfully implemented key web development concepts, showing proficiency in dynamic content rendering, layout design, and user experience optimization.
 
 
+DEVELOPED BY
 
+JEWEL GABRIEL PAUL
